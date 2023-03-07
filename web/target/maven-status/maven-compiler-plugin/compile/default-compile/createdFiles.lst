@@ -1,0 +1,10 @@
+emanuele\carere\util\thymeleaf\DecoupledLogicSetup.class
+emanuele\carere\service\GameServiceImpl.class
+emanuele\carere\config\WebConfig.class
+emanuele\carere\interceptor\RequestInterceptor.class
+emanuele\carere\util\GameMappings.class
+emanuele\carere\WebMain.class
+emanuele\carere\util\AttributeNames.class
+emanuele\carere\service\GameService.class
+emanuele\carere\controller\GameController.class
+emanuele\carere\util\ViewNames.class

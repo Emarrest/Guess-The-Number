@@ -1,0 +1,12 @@
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/head :: headFragment}">
+        <attr sel="#game-title" th:text="#{game.title}"/>
+        <attr sel="#main-message" th:align="center" th:text="${mainMessage}"/>
+        <attr sel="#result-message" th:align="center" th:text="${resultMessage}"/>
+        <attr sel="#game-form" th:align="center" action="play" method="post"/>
+        <attr sel="#enter-guess" th:text="#{game.enter.guess}"/>
+        <attr sel="#submit" th:value="#{game.submit}"/>
+        <attr sel="#footerId" th:replace="~{fragments/footer :: footerFragment}"/>
+
+    </attr>
+</thlogic>
